@@ -7,7 +7,7 @@ import App from './App.vue'
 new Vue({
     //2. 挂在App组件
     el: '#app',
-    component: {
+    components: {
         App
     },
     template: '<App/>'
